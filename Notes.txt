@@ -1,0 +1,27 @@
+Window - Common Util functions
+setTimeout vs setInterval
+prompt, Alert, Confirm
+working with events
+
+
+addEventListener:-
+=>it has 2 parameters 
+=> 1st one is event name
+=> 2nd one is the function that has to be executed. 
+variablename.addEventListener(EventName,function)
+
+
+
+
+ <label for="email">Email</label> <br />
+    <input type="text" id="email" placeholder="Enter Your Email"><br />
+    <button type="submit" onclick="foo()">Submit</button>
+    function foo(){
+            const res = document.getElementById("email").value;
+            if(res == "test@gmail.com"){
+                console.log("valid user");
+            }
+            else{
+                console.log("Invalid user");
+            }
+        }
